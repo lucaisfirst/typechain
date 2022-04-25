@@ -3,8 +3,7 @@ const name = "Luca",
     gender = "male";
 
 const sayHello = (name, age, gender?) => {
-    console.log(`Hello ${name}, you are ${age}, you are a ${gender}`);
-    console.log("Go Insane");
+    console.log(`Hello ${name}, you are ${age}, you are a ${gender}  Good to see you.`);
 };
 
 sayHello(name, age);
